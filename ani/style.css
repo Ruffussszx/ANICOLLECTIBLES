@@ -1,0 +1,170 @@
+/* 1. common */
+body {
+    margin: 0;
+    background: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+p a {
+    color: #e32636;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+/* 2. header */
+header {
+    background: #1b1b1b;
+    padding: 20px;
+    border-bottom: 3px solid #e32636;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header span {
+    color: #e32636;
+}
+
+header p {
+    color: #cccccc;
+}
+
+
+/* 3. nav */
+nav {
+    background: #242424;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover,
+nav a.active {
+    color: #e32636;
+}
+
+
+/* 4. footer */
+footer {
+    background: #1b1b1b;
+    color: #cccccc;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+/* 5. index page */
+.hero {
+    text-align: left;
+    padding: 40px;
+    background: linear-gradient(135deg, #242424, #101010);
+    border-left: 5px solid #e32636;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    background: #e32636;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #b81727;
+}
+
+
+/* 6. products and about */
+.products,
+.creators {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 15px;
+    background: #1b1b1b;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: #eeeeee;
+    border-radius: 5px;
+}
+
+
+/* 7. products page*/
+.products .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(227, 38, 54, 0.3);
+}
+
+.price {
+    color: #e32636;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* 8. About page */
+.creators img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #333333;
+}
+
+.creators h3 {
+    color: #e32636;
+    font-size: 18px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: 0;
+    border-radius: 8px;
+}
